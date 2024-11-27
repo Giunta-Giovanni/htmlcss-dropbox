@@ -12,39 +12,53 @@
 }
 .big{
     width: 98%;
+    border: 1px dashed black;
+
 }
 
 .medium{
     width: 70%;
     padding-top:50px;
     /* debug */
-    height: 500px;
+    /* height: 500px; */
+    border: 1px dashed black;
+
 }
 
 .small{
     width: 50%;
+    padding:30px auto;
 
     /* debug */
-    /* height: 1800px; */
+    /* height: 2800px; */
+    border: 1px dashed black;
+
 }
 
 .text-column{
-    width: 35%;
+    width: 40%;
 
     /* debug */
     height: 350px;
     background-color: purple;
     border: 1px dashed black;
 }
-
 .image-column{
-    width: 65%;
+    width: 60%;
 
     /* debug */
     height: 350px;
     background-color: purple;
     border: 1px dashed black;
 }
+.multi-column{
+    width: 32%;
+    height: 350px;
+    background-color: purple;
+    border: 1px dashed black;
+}
+
+
 
 /* header */
 header{
@@ -88,7 +102,7 @@ header{
     min-height: 500px;
 }
 
-.contenuto-jumbo{
+.layout-double{
     display: flex;
     flex-wrap: wrap;
 }
@@ -102,22 +116,92 @@ header{
     border: 1px dashed black;
 }
 
-
-
-
-
-
-
-
-
 /* main */
-main{
-    /* debug */
-    background-color:red;
-    height: 2000px;
+main section{
+    margin: 100px 0;
 }
+h2{
+    width: 100%;
+    margin: 10px auto;
+
+    /* debug */
+    height: 30px;
+    background-color: red;
+    border: 1px dashed black;
+}
+
+#tipo-fatturazione{
+    width: 100%;
+    margin: 10px auto;
+
+    /* debug */
+    height: 15px;
+    border: 1px dashed black;
+    background-color: grey;
+}
+
+#tipo-fatturazione span{
+    padding-right: 20px;
+}
+
+/* debug */
+
+
+.layout-multi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+
+    /* debug */
+    border: 1px dashed black;
+}
+
+.layout-single{
+    margin: 10px auto;
+    /* debug */
+    height: 150px;
+    background-color: purple;
+    border: 1px dashed black;
+}
+
+.short{
+    margin-top:50px;
+    margin-bottom: 50px;
+    width: 40%;
+
+    /* debug */
+    background-color:grey;
+}
+
 /* footer */
 footer{
     background-color: black;
     min-height: 500px;
+}
+
+.info-panel{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.info-menu{
+    width: 18%;
+
+    /* debug */
+    height: 300px;
+    background-color: white;
+    border: 1px dashed black;
+}
+
+#selezione-lingua{
+    margin: 50px 0;
+    padding: 50px 0;
+    width: 20%;
+    /* debug */
+    height: 100px;
+    background-color: red;
+    border: 1px dashed black;
+
 }
