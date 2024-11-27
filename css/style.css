@@ -16,7 +16,7 @@
 
 .medium{
     width: 70%;
-
+    padding-top:50px;
     /* debug */
     height: 500px;
 }
@@ -26,6 +26,24 @@
 
     /* debug */
     /* height: 1800px; */
+}
+
+.text-column{
+    width: 35%;
+
+    /* debug */
+    height: 350px;
+    background-color: purple;
+    border: 1px dashed black;
+}
+
+.image-column{
+    width: 65%;
+
+    /* debug */
+    height: 350px;
+    background-color: purple;
+    border: 1px dashed black;
 }
 
 /* header */
@@ -70,7 +88,24 @@ header{
     min-height: 500px;
 }
 
-.contenuto-jumbo
+.contenuto-jumbo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#jumbo-title{
+    width: 100%;
+
+    /* debug */
+    height: 50px;
+    background-color: red;
+    border: 1px dashed black;
+}
+
+
+
+
+
 
 
 
