@@ -8,7 +8,7 @@
     margin: auto;
     /* debug */
     background-color: blue;
-    height:50px;
+    /* height:50px; */
 }
 .big{
     width: 98%;
@@ -18,14 +18,14 @@
     width: 70%;
 
     /* debug */
-    height: 400px;
+    height: 500px;
 }
 
 .small{
     width: 50%;
 
     /* debug */
-    height: 1800px;
+    /* height: 1800px; */
 }
 
 /* header */
@@ -34,9 +34,33 @@ header{
     top: 0;
     z-index: 1000;
     background-color: white;
-    min-height: 80px;
+    padding:20px 0;
 }
 
+.nav-panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* debug */
+    border: 1px dashed black;
+
+}
+
+.panel{
+    /* debug */
+    border: 1px dashed black;
+    background-color: purple;
+    height: 40px;
+    width: 20%;
+}
+
+.pan-left{
+    padding-right:5px;
+}
+.pan-right{
+    padding-left: 5px;
+}
 
 
 
@@ -45,6 +69,12 @@ header{
     background-color:#b4d0e6 ;
     min-height: 500px;
 }
+
+.contenuto-jumbo
+
+
+
+
 /* main */
 main{
     /* debug */
