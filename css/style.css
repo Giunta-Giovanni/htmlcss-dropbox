@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* general */
+.container{
+    margin: auto;
+    /* debug */
+    background-color: blue;
+    height:50px;
+}
+.big{
+    width: 98%;
+}
+
+.medium{
+    width: 70%;
+
+    /* debug */
+    height: 400px;
+}
+
+.small{
+    width: 50%;
+
+    /* debug */
+    height: 1800px;
+}
+
+/* header */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+    min-height: 80px;
+}
+
+
+
+
+/* jumbotron */
+.jumbotron{
+    background-color:#b4d0e6 ;
+    min-height: 500px;
+}
+/* main */
+main{
+    /* debug */
+    background-color:red;
+    height: 2000px;
+}
+/* footer */
+footer{
+    background-color: black;
+    min-height: 500px;
+}
