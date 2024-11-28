@@ -3,16 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* general */
+/* general*/
+li{
+    list-style: none;
+}
+
+.btn{
+    padding: 8px 14px;
+    color: white;
+    text-decoration: none;
+    background-color: #0061fe;
+}
+
+.btn:hover{
+    background-color: #0061fea0;
+}
+
+
+/* general-macrostrutture */
 .container{
     margin: auto;
+
     /* debug */
-    background-color: blue;
     /* height:50px; */
 }
 .big{
     width: 98%;
-    border: 1px dashed black;
+
+    /* debug */
+    /* border: 1px dashed black; */
+    /* background-color: blue; */
 
 }
 
@@ -22,6 +42,7 @@
     /* debug */
     /* height: 500px; */
     border: 1px dashed black;
+    background-color: blue;
 
 }
 
@@ -32,9 +53,11 @@
     /* debug */
     /* height: 2800px; */
     border: 1px dashed black;
+    background-color: blue;
 
 }
 
+/* general-layout */
 .text-column{
     width: 40%;
 
@@ -66,7 +89,7 @@ header{
     top: 0;
     z-index: 1000;
     background-color: white;
-    padding:20px 0;
+    /* padding:20px 0; */
 }
 
 .nav-panel{
@@ -75,23 +98,41 @@ header{
     align-items: center;
 
     /* debug */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 
 }
 
 .panel{
+    display: flex;
+    align-items: center;
+    min-height: 60px;
     /* debug */
-    border: 1px dashed black;
-    background-color: purple;
-    height: 40px;
-    width: 20%;
+    /* border: 1px dashed black; */
+    /* background-color: purple; */
+    /* height: 20px; */
 }
 
-.pan-left{
-    padding-right:5px;
+.panel-left{
+    padding-right:10px;
+    margin-left: 20px;
 }
-.pan-right{
-    padding-left: 5px;
+
+.panel-right{
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.nav-item{
+    display: inline;
+    color: black; 
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 20px;
+
+}
+.nav-item:hover{
+    border-bottom: 2px solid black;
 }
 
 
