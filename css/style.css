@@ -226,7 +226,12 @@ header{
     background-color:#b4d0e6 ;
     /* min-height: 500px; */
 }
-
+#layout-jumbo{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 300px;
+    max-height: 350px;
+}
 
 
 
@@ -238,7 +243,7 @@ header{
     /* debug */
      /* height: 350px; */
     /* background-color: purple; */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 h1{
     font-size: 85px;
@@ -260,12 +265,13 @@ h1{
 
     /* debug */
     /* height: 350px; */
-    background-color: purple;
-    border: 1px dashed black;
+    /* background-color: purple;
+    border: 1px dashed black; */
 }
 #jumbo-img{
-    width: 100%;
-    margin-top: 30px;
+    width: 110%;
+    position: relative;
+    top: 30px;
 }
 
 .space{
