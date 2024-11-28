@@ -99,8 +99,8 @@ img{
 
     /* debug */
     /* height: 2800px; */
-    border: 1px dashed black;
-    background-color: blue;
+    /* border: 1px dashed black; */
+    /* background-color: blue; */
 
 }
 
@@ -112,7 +112,7 @@ img{
     /* debug */
      /* height: 350px; */
     /* background-color: purple; */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .image-column{
@@ -121,7 +121,7 @@ img{
     /* debug */
     /* height: 350px; */
     /* background-color: purple; */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 .multi-column{
     width: 32%;
@@ -246,7 +246,7 @@ h1{
     /* debug */
     /* height: 50px; */
     /* background-color: red; */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 #arrow-find{
     font-size: 50px;
@@ -288,7 +288,7 @@ h2{
     /* debug */
     /* height: 30px; */
     /* background-color: red; */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 #tipo-fatturazione{
@@ -297,7 +297,7 @@ h2{
 
     /* debug */
     /* height: 15px; */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     /* background-color: grey; */
 }
 
@@ -360,11 +360,14 @@ h2{
     margin: 30px 0;
 }
 
+/* 4th section */
+.link-clienti h2{
+margin:50px 0;
+}
 
-
-
-
-
+.link-clienti a{
+    margin:50px 0;
+}
 
 
 /* footer */
