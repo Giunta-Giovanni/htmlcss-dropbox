@@ -21,6 +21,7 @@ h5{
     margin: 20px 0;
 }
 
+
 li{
     list-style: none;
 }
@@ -34,9 +35,21 @@ li{
     height: fit-content;
 }
 
+.btn-white{
+    background-color: white;
+    color: black;
+    border:2px solid black;
+}
+
 .btn:hover{
     background-color: #0061fea0;
+} 
+
+.btn-white:hover{
+    background-color: rgba(221, 221, 221, 0.894);
 }
+
+
 
 .testo{
     font-size: 18px;
@@ -69,7 +82,7 @@ li{
     width: 70%;
     min-width: 1000px;
     padding:20px 0px;
-    /* min-height: 600px; */
+    min-height: 600px;
     /* debug */
     /* height: 500px; */
     /* border: 1px dashed black; */
@@ -92,19 +105,20 @@ li{
 /* general-layout */
 .text-column{
     width: 40%;
-    padding-bottom: 20px;
+    padding: 50px;
 
     /* debug */
      /* height: 350px; */
     /* background-color: purple; */
     border: 1px dashed black;
 }
+
 .image-column{
     width: 60%;
 
     /* debug */
     /* height: 350px; */
-    background-color: purple;
+    /* background-color: purple; */
     border: 1px dashed black;
 }
 .multi-column{
@@ -138,6 +152,14 @@ li{
 
     /* debug */
     /* border: 1px solid rgba(0, 0, 0, 0.2); */
+}
+
+/* general larghezze */
+.wd70{
+    width: 70%;
+}
+.wd60{
+    width: 60%;
 }
 
 
@@ -203,8 +225,17 @@ header{
 
 
 
-/* jumbo colonna di testo */
 
+/* jumbo colonna di testo */
+#text-jumbo-column{
+    width: 40%;
+    padding-bottom: 20px;
+
+    /* debug */
+     /* height: 350px; */
+    /* background-color: purple; */
+    border: 1px dashed black;
+}
 h1{
     font-size: 85px;
     padding: 30px 0;
@@ -220,6 +251,14 @@ h1{
 }
 
 /* jumbo colonna immagine */
+#image-jumbo-column{
+    width: 60%;
+
+    /* debug */
+    /* height: 350px; */
+    background-color: purple;
+    border: 1px dashed black;
+}
 #jumbo-img{
     width: 100%;
     margin-top: 30px;
@@ -306,18 +345,20 @@ h2{
     border-bottom: 1px solid black;
 }
 
-
-
-
-
-.short{
-    margin-top:50px;
-    margin-bottom: 50px;
-    width: 40%;
-
-    /* debug */
-    background-color:grey;
+.flex + .scheda-piano {
+    padding: 20px 0;
 }
+
+/* 2nd section*/
+.image-column img{
+    width: 100%;
+}
+
+
+
+
+
+
 
 /* footer */
 footer{
@@ -348,7 +389,6 @@ footer{
     height: 100px;
     background-color: red;
     border: 1px dashed black;
-
 }
 
 
